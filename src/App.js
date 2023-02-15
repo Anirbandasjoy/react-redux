@@ -17,6 +17,7 @@ function App() {
     dispatch(restCounter())
   }
   return (
+    <div className="main">
     <div className="App">
      
      <h2>Counter App</h2>
@@ -33,6 +34,7 @@ function App() {
       </div>
 
      </div>
+    </div>
     </div>
   );
 }
